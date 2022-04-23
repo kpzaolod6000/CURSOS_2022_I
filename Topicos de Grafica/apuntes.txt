@@ -1,0 +1,3 @@
+convolucion
+
+o es suavizado para el ruido o es para resaltar el borddes
