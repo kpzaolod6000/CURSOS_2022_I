@@ -1,0 +1,8 @@
+MSE error cuadratico medio
+MAE valor absoluto
+
+momentum 
+paradram 
+
+
+SVM metodo potente
