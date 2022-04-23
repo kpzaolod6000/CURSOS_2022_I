@@ -1,0 +1,4 @@
+BLAST es un algoritmo de busqueda no determinada  sino aproximada
+
+recomiendo que uses un vps de hostinger, intalas nginx como servidor y certbot para el ssl gratuito y de ronovacion automatica. funciona muy bien y es muy rapido, mejor que apache
+1.5 rem = 15px
