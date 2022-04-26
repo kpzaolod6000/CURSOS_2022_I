@@ -2,9 +2,9 @@
 import numpy as np
 import cv2
 from time import time
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
-def media(imgTest,kernel):
+def mediana(imgTest,kernel):
 
     imgFilter = imgTest.copy()
 
@@ -29,27 +29,52 @@ imgs = ['figures.jpg',
         'lenaG.png',
         'lenaS.png']
 
-# result = []
+
+result = []
+imgReal = []
+
 
 for img in imgs:
     imgGray = cv2.imread('./img/'+ img ,0)
-    cv2.imshow("original", imgGray)
+    imgReal.append(imgGray)
     
     for nk in nKernel:
        
         kernel = np.ones((nk,nk), dtype=np.int32)  #filtro
 
         start_time = time()
-        imgFilter = media(imgGray,kernel)
+        imgFilter = mediana(imgGray,kernel)
         elapsed_time = time() - start_time
         
         print('\nMediana' + str(nk) + 'x' + str(nk) + img)
         print("Tiempo transcurrido: %0.10f segundos." % (elapsed_time))
 
         
-        cv2.imshow("Mediana " + str(nk) + "x" + str(nk), imgFilter)       
-        filename = './imgResult/' + 'Mediana' + str(nk) + 'x' + str(nk) + img
+        result.append(imgFilter)
+        filename = './img/imgMediana/' + 'Mediana' + str(nk) + 'x' + str(nk) + img
         cv2.imwrite(filename, imgFilter)
+
+def concat_tile(im_list_2d):
+    return cv2.vconcat([cv2.hconcat(im_list_h) for im_list_h in im_list_2d])
+
+for i in range(len(result)):
+    result[i] = cv2.resize(result[i], dsize=(0, 0), fx=0.8, fy=0.8)
+
+for i in range(len(imgReal)):
+    imgReal[i] = cv2.resize(imgReal[i], dsize=(0, 0), fx=0.8, fy=0.8)    
+
+im_Figures = concat_tile([[imgReal[0],result[0],result[1],result[2]]])
+im_Zebra   = concat_tile([[imgReal[1],result[3],result[4],result[5]]])
+im_LenaG   = concat_tile([[imgReal[2],result[6],result[7],result[8]]])
+im_LenaS   = concat_tile([[imgReal[3],result[9],result[10],result[11]]])
+
+
+
+cv2.imshow("Resultados figures",im_Figures)
+cv2.imshow("Resultados zebra",im_Zebra)
+cv2.imshow("Resultados lenaG",im_LenaG)
+cv2.imshow("Resultados lenaS",im_LenaS)
+
 
 cv2.waitKey(0)
 

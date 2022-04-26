@@ -3,7 +3,8 @@ import numpy as np
 import cv2
 from time import time
 
-def media(imgTest,kernel):
+
+def maximo(imgTest,kernel):
 
     imgFilter = imgTest.copy()
 
@@ -14,10 +15,8 @@ def media(imgTest,kernel):
     for i in range(n - nK + 1):
         for j in range(m - mK + 1):
             slicing = imgTest[i:i+nK, j:j+mK]
-            multiMatrix = np.multiply(slicing,kernel)
-            sum = np.sum(multiMatrix) / (nK*mK)
-            
-            imgFilter[i+ptoMiddle][j+ptoMiddle] = sum
+            max_ = np.max(slicing)
+            imgFilter[i+ptoMiddle][j+ptoMiddle] = max_
     return imgFilter
 
 
@@ -28,28 +27,30 @@ imgs = ['figures.jpg',
         'lenaG.png',
         'lenaS.png']
 
+
+
 result = []
 imgReal = []
+
 
 for img in imgs:
     imgGray = cv2.imread('./img/'+ img ,0)
     imgReal.append(imgGray)
-    # cv2.imshow("original", imgGray)
     
     for nk in nKernel:
        
         kernel = np.ones((nk,nk), dtype=np.int32)  #filtro
 
         start_time = time()
-        imgFilter = media(imgGray,kernel)
+        imgFilter = maximo(imgGray,kernel)
         elapsed_time = time() - start_time
-        print('\nMedia' + str(nk) + 'x' + str(nk) + img)
+        
+        print('\nMaximo' + str(nk) + 'x' + str(nk) + img)
         print("Tiempo transcurrido: %0.10f segundos." % (elapsed_time))
 
-        
         result.append(imgFilter)
         
-        filename = './img/imgMedia/' + 'Media' + str(nk) + 'x' + str(nk) + img
+        filename = './img/imgMaximo/' + 'Maximo' + str(nk) + 'x' + str(nk) + img
         cv2.imwrite(filename, imgFilter)
 
 def concat_tile(im_list_2d):
@@ -72,7 +73,5 @@ cv2.imshow("Resultados figures",im_Figures)
 cv2.imshow("Resultados zebra",im_Zebra)
 cv2.imshow("Resultados lenaG",im_LenaG)
 cv2.imshow("Resultados lenaS",im_LenaS)
-
-
 cv2.waitKey(0)
 
