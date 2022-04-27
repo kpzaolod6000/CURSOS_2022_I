@@ -21,7 +21,7 @@ def minimo(imgTest,kernel):
 
 
 
-nKernel = [3,5,9]
+nKernel = [3,5,7]
 imgs = ['figures.jpg',
         'zebra.jpg',
         'lenaG.png',
