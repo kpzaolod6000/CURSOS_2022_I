@@ -9,7 +9,7 @@ def media(imgTest,kernel):
 
     n , m = imgTest.shape
     nK, mK = kernel.shape
-    ptoMiddle = nk//2
+    ptoMiddle = nK/2
 
     for i in range(n - nK + 1):
         for j in range(m - mK + 1):
