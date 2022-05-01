@@ -2,40 +2,62 @@
 import numpy as np
 import cv2
 
-def prewit(imgTest,kernel):
+def Prewit(imgTest,filterGx,filterGy):
 
-    imgFilter = imgTest.copy()
+    Img = imgTest.copy()
 
     n , m = imgTest.shape
-    nK, mK = kernel.shape
-    ptoMiddle = nK//2
+    nK, mK = filterGx.shape
+    pntMiddle = nK//2
+    
 
     for i in range(n - nK + 1):
         for j in range(m - mK + 1):
             slicing = imgTest[i:i+nK, j:j+mK]
-            multiMatrix = np.multiply(slicing,kernel)
-            sum = np.sum(multiMatrix) / (nK*mK)
             
-            imgFilter[i+ptoMiddle][j+ptoMiddle] = sum
-    return imgFilter
+            multiGx = np.multiply(slicing,filterGx)
+            multiGy = np.multiply(slicing,filterGy)
+            Gx = pow(np.sum(multiGx),2)
+            Gy = pow(np.sum(multiGy),2)
+            Gxy = np.sqrt(Gx+Gy)
+            
+            Img[i+pntMiddle][j+pntMiddle] = Gxy
+            
+    return Img
 
 
+imgs = ['blancoNegro.png','circuit.jpg']
 
+imgReal = []
+imgFilters = []
 
-imgGray = cv2.imread('./img/monedas.png' ,0)
-cv2.imshow("original", imgGray)
+for img in imgs: 
 
-
-
+    imgGray = cv2.imread('./img/'+img ,0)
+    imgReal.append(imgGray)
+    # cv2.imshow("original", imgGray)
     
-kernel = np.array([[-1,0,1],
-                   [-1,0,1],
-                   [-1,0,1]])
 
-imgFilter = prewit(imgGray,kernel)
-cv2.imshow("prewit", imgFilter)
+    filterGx = np.array([[1, 0, -1],
+                         [1, 0, -1],
+                         [1, 0, -1]])
 
-filename = './img/' + 'prewit' + str(3) + 'x' + str(3) + 'monedas.jpg'
-cv2.imwrite(filename, imgFilter)
+    filterGy = np.array([[ 1,  1,  1],
+                         [ 0,  0,  0],
+                         [-1, -1, -1]])
+
+    imgFilter = Prewit(imgGray,filterGx,filterGy)
+    imgFilters.append(imgFilter)
+    # cv2.imshow("Prewit"+img, imgFilter)
+
+    filename = './img/imgPrewit/Prewit' + img
+    cv2.imwrite(filename, imgFilter)
+
+for i in range(len(imgReal)):
+    imgReal[i] = cv2.resize(imgReal[i], dsize=(0, 0), fx=2.5, fy=2.5)
+    imgFilters[i] = cv2.resize(imgFilters[i], dsize=(0, 0), fx=2.5, fy=2.5)
+    im_1 = cv2.hconcat([imgReal[i], imgFilters[i]])
+    cv2.imshow("Prewit"+imgs[i], im_1)
+
 
 cv2.waitKey(0)
