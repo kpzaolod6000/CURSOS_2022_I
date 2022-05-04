@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE DocumentSummarySet>
+<DocumentSummarySet status="OK">
+  <DbBuild>Build220501-1413.3</DbBuild>
+  <DocumentSummary>
+    <Id>34670408</Id>
+    <PubDate>2022 Jan</PubDate>
+    <EPubDate>2021 Oct 21</EPubDate>
+    <Source>Arterioscler Thromb Vasc Biol</Source>
+    <Authors>
+      <Author>
+        <Name>Huang L</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Bichsel C</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Norris AL</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Thorpe J</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Pevsner J</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Alexandrescu S</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Pinto A</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Zurakowski D</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Kleiman RJ</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Sahin M</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Greene AK</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Bischoff J</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+    </Authors>
+    <LastAuthor>Bischoff J</LastAuthor>
+    <Title>Endothelial GNAQ p.R183Q Increases ANGPT2 (Angiopoietin-2) and Drives Formation of Enlarged Blood Vessels.</Title>
+    <SortTitle>endothelial i gnaq i p r183q increases angpt2 angiopoietin 2 and drives formation of enlarged blood vessels</SortTitle>
+    <Volume>42</Volume>
+    <Issue>1</Issue>
+    <Pages>e27-e43</Pages>
+    <Lang>
+      <string>eng</string>
+    </Lang>
+    <NlmUniqueID>9505803</NlmUniqueID>
+    <ISSN>1079-5642</ISSN>
+    <ESSN>1524-4636</ESSN>
+    <PubType>
+      <flag>Journal Article</flag>
+    </PubType>
+    <RecordStatus>PubMed - indexed for MEDLINE</RecordStatus>
+    <PubStatus>256</PubStatus>
+    <ArticleIds>
+      <ArticleId>
+        <IdType>pubmed</IdType>
+        <IdTypeN>1</IdTypeN>
+        <Value>34670408</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>doi</IdType>
+        <IdTypeN>3</IdTypeN>
+        <Value>10.1161/ATVBAHA.121.316651</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pmc</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>PMC8702487</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>mid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>NIHMS1747158</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>rid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>34670408</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>eid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>34670408</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pmcid</IdType>
+        <IdTypeN>5</IdTypeN>
+        <Value>pmc-id: PMC8702487;manuscript-id: NIHMS1747158;embargo-date: 2023/01/01;</Value>
+      </ArticleId>
+    </ArticleIds>
+    <History>
+      <PubMedPubDate>
+        <PubStatus>pmc-release</PubStatus>
+        <Date>2023/01/01 00:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>pubmed</PubStatus>
+        <Date>2021/10/22 06:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>medline</PubStatus>
+        <Date>2022/01/18 06:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>entrez</PubStatus>
+        <Date>2021/10/21 05:25</Date>
+      </PubMedPubDate>
+    </History>
+    <References>
+      <Reference>
+        <RefSource>Arterioscler Thromb Vasc Biol. 2022 Jan;42(1):3-5</RefSource>
+        <RefType>Comment in</RefType>
+        <PMID>34758631</PMID>
+      </Reference>
+    </References>
+    <Attributes>
+      <flag>Has Abstract</flag>
+    </Attributes>
+    <PmcRefCount>0</PmcRefCount>
+    <FullJournalName>Arteriosclerosis, thrombosis, and vascular biology</FullJournalName>
+    <ELocationID>doi: 10.1161/ATVBAHA.121.316651</ELocationID>
+    <DocType>citation</DocType>
+    <SortPubDate>2022/01/01 00:00</SortPubDate>
+    <SortFirstAuthor>Huang L</SortFirstAuthor>
+  </DocumentSummary>
+  <DocumentSummary>
+    <Id>34124757</Id>
+    <PubDate>2021 Oct 13</PubDate>
+    <Source>Hum Mol Genet</Source>
+    <Authors>
+      <Author>
+        <Name>Fjær R</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Marciniak K</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Sundnes O</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Hjorthaug H</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Sheng Y</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Hammarström C</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Sitek JC</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Vigeland MD</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Backe PH</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Øye AM</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Fosse JH</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Stav-Noraas TE</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Uchiyama Y</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Matsumoto N</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Comi A</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Pevsner J</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Haraldsen G</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Selmer KK</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+    </Authors>
+    <LastAuthor>Selmer KK</LastAuthor>
+    <Title>A novel somatic mutation in GNB2 provides new insights to the pathogenesis of Sturge-Weber syndrome.</Title>
+    <SortTitle>novel somatic mutation in gnb2 provides new insights to the pathogenesis of sturge weber syndrome</SortTitle>
+    <Volume>30</Volume>
+    <Issue>21</Issue>
+    <Pages>1919-1931</Pages>
+    <Lang>
+      <string>eng</string>
+    </Lang>
+    <NlmUniqueID>9208958</NlmUniqueID>
+    <ISSN>0964-6906</ISSN>
+    <ESSN>1460-2083</ESSN>
+    <PubType>
+      <flag>Journal Article</flag>
+    </PubType>
+    <RecordStatus>PubMed - indexed for MEDLINE</RecordStatus>
+    <PubStatus>4</PubStatus>
+    <ArticleIds>
+      <ArticleId>
+        <IdType>pubmed</IdType>
+        <IdTypeN>1</IdTypeN>
+        <Value>34124757</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pii</IdType>
+        <IdTypeN>4</IdTypeN>
+        <Value>6297427</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>doi</IdType>
+        <IdTypeN>3</IdTypeN>
+        <Value>10.1093/hmg/ddab144</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pmc</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>PMC8522634</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>rid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>34124757</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>eid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>34124757</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pmcid</IdType>
+        <IdTypeN>5</IdTypeN>
+        <Value>pmc-id: PMC8522634;</Value>
+      </ArticleId>
+    </ArticleIds>
+    <History>
+      <PubMedPubDate>
+        <PubStatus>received</PubStatus>
+        <Date>2021/01/13 00:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>revised</PubStatus>
+        <Date>2021/05/25 00:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>accepted</PubStatus>
+        <Date>2021/05/25 00:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>pubmed</PubStatus>
+        <Date>2021/06/15 06:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>medline</PubStatus>
+        <Date>2022/04/01 06:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>entrez</PubStatus>
+        <Date>2021/06/14 10:00</Date>
+      </PubMedPubDate>
+    </History>
+    <Attributes>
+      <flag>Has Abstract</flag>
+    </Attributes>
+    <PmcRefCount>1</PmcRefCount>
+    <FullJournalName>Human molecular genetics</FullJournalName>
+    <ELocationID>doi: 10.1093/hmg/ddab144</ELocationID>
+    <DocType>citation</DocType>
+    <SortPubDate>2021/10/13 00:00</SortPubDate>
+    <SortFirstAuthor>Fjær R</SortFirstAuthor>
+  </DocumentSummary>
+  <DocumentSummary>
+    <Id>30853154</Id>
+    <PubDate>2019 Jul</PubDate>
+    <EPubDate>2018 Dec 20</EPubDate>
+    <Source>Pediatr Neurol</Source>
+    <Authors>
+      <Author>
+        <Name>Day AM</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>McCulloch CE</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Hammill AM</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Juhász C</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Lo WD</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Pinto AL</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Miles DK</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Fisher BJ</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Ball KL</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Wilfong AA</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Levin AV</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Thau AJ</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Comi AM</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>National Institute of Health Sponsor: Rare Disease Clinical Research Consortium (RDCRN) Brain and Vascular Malformation Consortium (BVMC) SWS Investigator Group.</Name>
+        <AuthType>CollectiveName</AuthType>
+      </Author>
+      <Author>
+        <Name>Koenig JI</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Lawton MT</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Marchuk DA</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Moses MA</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Freedman SF</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Pevsner J</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+    </Authors>
+    <LastAuthor>Pevsner J</LastAuthor>
+    <Title>Physical and Family History Variables Associated With Neurological and Cognitive Development in Sturge-Weber Syndrome.</Title>
+    <SortTitle>physical and family history variables associated with neurological and cognitive development in sturge weber syndrome</SortTitle>
+    <Volume>96</Volume>
+    <Pages>30-36</Pages>
+    <Lang>
+      <string>eng</string>
+    </Lang>
+    <NlmUniqueID>8508183</NlmUniqueID>
+    <ISSN>0887-8994</ISSN>
+    <ESSN>1873-5150</ESSN>
+    <PubType>
+      <flag>Journal Article</flag>
+      <flag>Multicenter Study</flag>
+    </PubType>
+    <RecordStatus>PubMed - indexed for MEDLINE</RecordStatus>
+    <PubStatus>256</PubStatus>
+    <ArticleIds>
+      <ArticleId>
+        <IdType>pubmed</IdType>
+        <IdTypeN>1</IdTypeN>
+        <Value>30853154</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pii</IdType>
+        <IdTypeN>4</IdTypeN>
+        <Value>S0887-8994(18)30698-2</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>doi</IdType>
+        <IdTypeN>3</IdTypeN>
+        <Value>10.1016/j.pediatrneurol.2018.12.002</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pmc</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>PMC7288445</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>mid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>NIHMS1060191</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>rid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>30853154</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>eid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>30853154</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pmcid</IdType>
+        <IdTypeN>5</IdTypeN>
+        <Value>pmc-id: PMC7288445;manuscript-id: NIHMS1060191;</Value>
+      </ArticleId>
+    </ArticleIds>
+    <History>
+      <PubMedPubDate>
+        <PubStatus>received</PubStatus>
+        <Date>2018/06/15 00:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>revised</PubStatus>
+        <Date>2018/11/26 00:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>accepted</PubStatus>
+        <Date>2018/12/02 00:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>pubmed</PubStatus>
+        <Date>2019/03/12 06:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>medline</PubStatus>
+        <Date>2020/05/02 06:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>entrez</PubStatus>
+        <Date>2019/03/12 06:00</Date>
+      </PubMedPubDate>
+    </History>
+    <Attributes>
+      <flag>Has Abstract</flag>
+    </Attributes>
+    <PmcRefCount>7</PmcRefCount>
+    <FullJournalName>Pediatric neurology</FullJournalName>
+    <ELocationID>doi: 10.1016/j.pediatrneurol.2018.12.002</ELocationID>
+    <DocType>citation</DocType>
+    <SortPubDate>2019/07/01 00:00</SortPubDate>
+    <SortFirstAuthor>Day AM</SortFirstAuthor>
+  </DocumentSummary>
+  <DocumentSummary>
+    <Id>24075845</Id>
+    <PubDate>2013 Dec</PubDate>
+    <EPubDate>2013 Sep 26</EPubDate>
+    <Source>Pediatr Neurol</Source>
+    <Authors>
+      <Author>
+        <Name>Comi AM</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Marchuk DA</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Pevsner J</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+    </Authors>
+    <LastAuthor>Pevsner J</LastAuthor>
+    <Title>A needle in a haystack: Sturge-Weber syndrome gene discovery.</Title>
+    <SortTitle>needle in a haystack sturge weber syndrome gene discovery</SortTitle>
+    <Volume>49</Volume>
+    <Issue>6</Issue>
+    <Pages>391-2</Pages>
+    <Lang>
+      <string>eng</string>
+    </Lang>
+    <NlmUniqueID>8508183</NlmUniqueID>
+    <ISSN>0887-8994</ISSN>
+    <ESSN>1873-5150</ESSN>
+    <PubType>
+      <flag>Journal Article</flag>
+    </PubType>
+    <RecordStatus>PubMed - indexed for MEDLINE</RecordStatus>
+    <PubStatus>256</PubStatus>
+    <ArticleIds>
+      <ArticleId>
+        <IdType>pubmed</IdType>
+        <IdTypeN>1</IdTypeN>
+        <Value>24075845</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pii</IdType>
+        <IdTypeN>4</IdTypeN>
+        <Value>S0887-8994(13)00419-0</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>doi</IdType>
+        <IdTypeN>3</IdTypeN>
+        <Value>10.1016/j.pediatrneurol.2013.07.009</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>rid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>24075845</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>eid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>24075845</Value>
+      </ArticleId>
+    </ArticleIds>
+    <History>
+      <PubMedPubDate>
+        <PubStatus>received</PubStatus>
+        <Date>2013/06/28 00:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>revised</PubStatus>
+        <Date>2013/07/10 00:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>accepted</PubStatus>
+        <Date>2013/07/11 00:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>entrez</PubStatus>
+        <Date>2013/10/01 06:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>pubmed</PubStatus>
+        <Date>2013/10/01 06:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>medline</PubStatus>
+        <Date>2014/07/12 06:00</Date>
+      </PubMedPubDate>
+    </History>
+    <PmcRefCount>1</PmcRefCount>
+    <FullJournalName>Pediatric neurology</FullJournalName>
+    <ELocationID>doi: 10.1016/j.pediatrneurol.2013.07.009</ELocationID>
+    <DocType>citation</DocType>
+    <SortPubDate>2013/12/01 00:00</SortPubDate>
+    <SortFirstAuthor>Comi AM</SortFirstAuthor>
+  </DocumentSummary>
+  <DocumentSummary>
+    <Id>23656586</Id>
+    <PubDate>2013 May 23</PubDate>
+    <EPubDate>2013 May 8</EPubDate>
+    <Source>N Engl J Med</Source>
+    <Authors>
+      <Author>
+        <Name>Shirley MD</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Tang H</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Gallione CJ</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Baugher JD</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Frelin LP</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Cohen B</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>North PE</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Marchuk DA</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Comi AM</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+      <Author>
+        <Name>Pevsner J</Name>
+        <AuthType>Author</AuthType>
+      </Author>
+    </Authors>
+    <LastAuthor>Pevsner J</LastAuthor>
+    <Title>Sturge-Weber syndrome and port-wine stains caused by somatic mutation in GNAQ.</Title>
+    <SortTitle>sturge weber syndrome and port wine stains caused by somatic mutation in gnaq</SortTitle>
+    <Volume>368</Volume>
+    <Issue>21</Issue>
+    <Pages>1971-9</Pages>
+    <Lang>
+      <string>eng</string>
+    </Lang>
+    <NlmUniqueID>0255562</NlmUniqueID>
+    <ISSN>0028-4793</ISSN>
+    <ESSN>1533-4406</ESSN>
+    <PubType>
+      <flag>Journal Article</flag>
+    </PubType>
+    <RecordStatus>PubMed - indexed for MEDLINE</RecordStatus>
+    <PubStatus>256</PubStatus>
+    <ArticleIds>
+      <ArticleId>
+        <IdType>pubmed</IdType>
+        <IdTypeN>1</IdTypeN>
+        <Value>23656586</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>doi</IdType>
+        <IdTypeN>3</IdTypeN>
+        <Value>10.1056/NEJMoa1213507</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pmc</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>PMC3749068</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>mid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>NIHMS491917</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>rid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>23656586</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>eid</IdType>
+        <IdTypeN>8</IdTypeN>
+        <Value>23656586</Value>
+      </ArticleId>
+      <ArticleId>
+        <IdType>pmcid</IdType>
+        <IdTypeN>5</IdTypeN>
+        <Value>pmc-id: PMC3749068;manuscript-id: NIHMS491917;</Value>
+      </ArticleId>
+    </ArticleIds>
+    <History>
+      <PubMedPubDate>
+        <PubStatus>entrez</PubStatus>
+        <Date>2013/05/10 06:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>pubmed</PubStatus>
+        <Date>2013/05/10 06:00</Date>
+      </PubMedPubDate>
+      <PubMedPubDate>
+        <PubStatus>medline</PubStatus>
+        <Date>2013/05/31 06:00</Date>
+      </PubMedPubDate>
+    </History>
+    <References>
+      <Reference>
+        <RefSource>Ann Dermatol Venereol. 2013 Oct;140(10):658-9</RefSource>
+        <RefType>Comment in</RefType>
+        <PMID>24090900</PMID>
+      </Reference>
+    </References>
+    <Attributes>
+      <flag>Has Abstract</flag>
+    </Attributes>
+    <PmcRefCount>236</PmcRefCount>
+    <FullJournalName>The New England journal of medicine</FullJournalName>
+    <ELocationID>doi: 10.1056/NEJMoa1213507</ELocationID>
+    <DocType>citation</DocType>
+    <SortPubDate>2013/05/23 00:00</SortPubDate>
+    <SortFirstAuthor>Shirley MD</SortFirstAuthor>
+  </DocumentSummary>
+</DocumentSummarySet>
