@@ -22,8 +22,8 @@ from columnsName import getColumnsName
 
 data = {
         'Taylor Swift': [ 4.0, 5.0,np.nan, 5.0],
-        'PSY': [3.0, 2.0, 3.5,np.nan],
-        'Whitney Houston': [4, np.nan, 4, 3],
+        'PSY': [3.0,2.0, 3.5,np.nan],
+        'Whitney Houston': [4.0, np.nan, 4.0, 3.0],
         }
 
 
@@ -39,13 +39,14 @@ columns_names = getColumnsName(df_Data)
 # ### Desviación Estandar
 # """
 
-item_1 = 'Taylor Swift'
-item_2 = 'PSY'
+item_1 = 'PSY'
+item_2 = 'Taylor Swift'
 item_1 = df_Data[item_1].to_numpy()
 item_2 = df_Data[item_2].to_numpy()
 
 desv,card = desStandard(item_1,item_2)
 # print(desv)
+# print(card)
 
 
 """### Construccion de la matriz"""
@@ -66,6 +67,7 @@ user_predict =  input("Escriba el usuario calificador: ")
 item_cal =  input("Escriba el item a calificar: ")
 
 predict = getPredict(df_Data,Matrixdev,cardinls,user_predict,item_cal,columns_names)
+# print(columns_names)
 print("\n")
 print(user_predict," podria calificar a ",item_cal, " con un puntaje de: " ,predict)
 # print(predict)

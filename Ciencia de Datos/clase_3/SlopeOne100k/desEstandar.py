@@ -9,9 +9,9 @@ def desStandard(item_1, item_2):
     for i in range(n):
         if(not np.isnan(item_1[i]) and not np.isnan(item_2[i])):
             card += 1
-            us += (item_1[i] - item_2[i])
+            us += (item_2[i] - item_1[i]) #PSY respecto a Taylor
 
     if card == 0: return 0,0
-    # print("desviacion Numerador: ",us)
-    # print("cardinalidad: ",card)
+    #print("desviacion Numerador: ",us)
+    #print("cardinalidad: ",card)
     return us/card,card

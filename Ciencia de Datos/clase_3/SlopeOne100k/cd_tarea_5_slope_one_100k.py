@@ -27,6 +27,7 @@ df_Data = data_ratings.pivot_table(index='userId', columns='movieId', values='ra
 print("Dataset\n")
 print(df_Data)
 
+
 columns_names = getColumnsName(df_Data)
 # print(columns_names)
 
@@ -71,4 +72,13 @@ item_cal =  int(input("Escriba el item a calificar: "))
 predict = getPredict(df_Data,Matrixdev,cardinls,user_predict,item_cal,columns_names)
 print("\n")
 print("EL usuario con id: ",user_predict," podria calificar a la pelicula con id de: ",item_cal, " con un puntaje de: " ,predict)
-# print(predict)
+
+
+# print("lista de la fila: ", user_predict)
+# test_ = df_Data.loc[user_predict,:].dropna().to_numpy()
+# print(test_)
+# print(np.count_nonzero(test_ == 1.0))
+# print(np.count_nonzero(test_ == 2.0))
+# print(np.count_nonzero(test_ == 3.0))
+# print(np.count_nonzero(test_ == 4.0))
+# print(np.count_nonzero(test_ == 5.0))
