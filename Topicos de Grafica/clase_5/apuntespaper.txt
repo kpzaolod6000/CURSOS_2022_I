@@ -1,0 +1,49 @@
+Los cuatro primeros enfoques producen excelentes resultados, pero sus requisitos no se pueden cumplir fácilmente
+, como se muestra en [1,6]. En los últimos años, el enfoque de una sola imagen ha sido ampliamente estudiado, debido a que la mayoría de las imágenes se capturan con cámaras comunes. 
+
+propusieron utilizar el canal oscuro previo (DCP) para recuperar las imágenes con excelentes resultados; sin embargo, el principal inconveniente es que el algoritmo es caro en términos de tiempo de procesamiento, principalmente debido a la operación de mateado utilizada para refinar el mapa de transmisión (estimación de la profundidad).
+
+
+
+
+El rendimiento del algoritmo propuesto se compara
+contra dos enfoques del estado del arte, el de Gibson 
+et al. en [14], que utiliza una técnica para refinar la transmisión modificando 
+el canal oscuro previo a través del canal oscuro mediano, y el de Zhu et al. en [13] 
+que propone un algoritmo basado en una atenuación de color lineal previa, y 
+la diferencia entre el brillo y la saturación de los píxeles dentro de la imagen brumosa. 
+Los parámetros utilizados en los algoritmos implementados fueron propuestos por sus 
+correspondientes autores. En el caso de Gibson et al. [14] se utilizó un tamaño 
+de kernel de 11×11 y un ω = 0,95, mientras que en el caso de Zhu et al. [13] 
+se utilizó Ω(χ ) = 15, un β = 0,8 y ω = 0,95. La experimentación se realizó en un 
+PC con una CPU i5 3320 @2,60 GHz y 4 GB de RAM, utilizando C + + y la biblioteca OpenCV
+
+
+erosion 
+Se aplica erosión morfológica para que desaparezcan los pequeños elementos del primer plano de la imagen, según el elemento estructural. 
+
+dilatacion
+
+Este operador elimina los elementos pequeños en el fondo de la imagen. 
+
+filtro gausiano
+
+que suaviza la imagen tratada y elimina el ruido y los detalles, 
+reduciendo la diferencia entre los cuadrados formados por la 
+operación de opening El filtrado gaussiano se realiza mediante 
+la convolución con una máscara G, cuyos coeficientes se basan 
+en una estimación de la distribución
+
+
+Según la teoría de la dispersión atmosférica, un modelo de imagen de una escena 
+brumosa consta principalmente de dos partes, que se muestran en la figura 1.  
+La primera parte es el proceso de atenuación de la luz reflejada desde la 
+superficie del objeto hasta la cámara. La segunda parte es la dispersión de la luz 
+del aire que llega a la cámara.  Ambas partes constituyen la base teórica de las imágenes borrosas.
+
+radiance
+hz
+
+
+HSV 
+H ->hiu que tanto blanco hay

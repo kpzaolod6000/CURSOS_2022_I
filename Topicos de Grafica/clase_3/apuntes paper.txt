@@ -1,0 +1,27 @@
+CAD = sistemas de diagnóstico asistido por ordenador
+
+La técnica de 
+se adopta la técnica de aumento de datos para evitar el sobreajuste
+
+El uso de imágenes con dimensiones originales (512 × 512) aumenta la 
+complejidad del entrenamiento de la red 2D-CNN sin que se aprecie un aumento del rendimiento.
+
+
+
+capa totalmente conectada (FC)
+
+
+estas redes de aprendizaje profundo constan de tres capas principales, capas convolucionales, de agrupación y capas totalmente conectadas (FC)
+
+Las capas convolucionales se encargan de extraer características de las imágenes. 
+Las capas convolucionales suelen aplicarse para reducir las características en las arquitecturas CNN. 
+La última parte de la 2D-CNN es la FC, y en la capa anterior hay una función de activación que se encarga de la clasificación. 
+Normalmente se emplea la función Softmax. Se ha demostrado que la función de activación sigmoide tiene un rendimiento eficiente en problemas de clasificación binaria en esta arquitectura de aprendizaje profundo.
+En las 2D-CNN, la sustitución de la Sigmoid por la máquina de vectores de apoyo (SVM) puede conducir a mejores resultados. 
+Tal logro usando SVM ha sido reportado en algunos de los trabajos anteriores trabajos anteriores como [48]. 
+
+algoritmo de aumento de datos
+
+Como la CNN funciona como una caja negra, sus pasos de entrenamiento no están claros. Por eso, al utilizar este algoritmo, uno de los retos importantes es comprobar que el proceso de entrenamiento es correcto. Para comprobar que el entrenamiento de la CNN es correcto, se han inspeccionado las salidas de sus capas. En cada imagen generada, el eje x muestra los datos de entrada y el eje y la salida de una capa. La salida obtenida en las diferentes capas de la CNN se muestra en la Fig. 6.
+
+El tamaño de los datos de entrada en la primera y segunda capa (capas convolucionales) es igual al número de filtros de esa capa. El tamaño de los datos de entrada de la tercera capa en adelante (capas totalmente conectadas) es igual al número de neuronas de la capa. En estas imágenes, las regiones más brillantes indican más peso y y se pueden extraer más características de ellas. 

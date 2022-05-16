@@ -1,0 +1,17 @@
+Fig. 7 ilustra los resultados obtenidos utilizando la base de datos privada con 
+método CNN-sigmoide con validación cruzada de 10 veces
+
+. Careful comparison of Figs. 7 with 9 and 8 with 10 reveals that Sobel has accelerated the convergence of both methods. 
+-Como mejora adicional, se añadió el aumento de datos a los cuatro experimentos mencionados anteriormente. Las Figs. 11-14 están relacionadas con los escenarios CNNSigmoid + aumento de datos, CNN-SVM + aumento de datos, CNN-Sigmoid + Sobel + aumento de datos y CCN-SVM + Sobel + aumento de datos. 
+La comparación de las Figs. 7 con la 11, 8 con la 12, 9 con la 13 y 10 con la 14 muestra que el aumento de datos conduce a una mejora del rendimiento al igual que como Sobel.
+
+En la Tabla 3 se puede observar que el clasificador SVM experimenta valores de pérdida más altos que el clasificador Sigmoid. A primera vista, esta observación podría sugerir que el clasificador Sigmoid es superior al SVM. Sin embargo, SVM ha superado claramente al clasificador Sigmoid. Este escenario contraintuitivo se debe a la diferencia entre la función de pérdida de SVM y Sigmoid 
+
+Las ventajas de nuestro método propuesto son las siguientes 
+1. Recopilamos una nueva base de datos para validar nuestro modelo desarrollado. 
+2. Nuestro método propuesto también se prueba en seis bases de datos públicas y mostró un excelente rendimiento. 
+3. Se utiliza el aumento de datos para permitir que funcione con bases de datos pequeñas. 
+4. El filtro Sobel se utiliza para mejorar el rendimiento de nuestro método. 
+Las limitaciones de nuestro método propuesto son las siguientes 
+1. El coste computacional de los diferentes algoritmos de aprendizaje profundo es alto. 
+2. 2. La limitación de los datos de entrada es otra debilidad de nuestro algoritmo. 
