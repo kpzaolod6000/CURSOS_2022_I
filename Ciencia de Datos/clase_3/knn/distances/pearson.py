@@ -38,6 +38,7 @@ def Pearson(x,y):
   #print(s_x2N)
   #print(s_y2N)
   denominator = math.sqrt(s_x2 - s_x2N) * math.sqrt(s_y2 - s_y2N)
+  if x_y == 0: return -100000.0 
   if denominator == 0:
     r = 0
   else:
@@ -82,6 +83,8 @@ def Pearson_D(x,y):
   #print(s_x2N)
   #print(s_y2N)
   denominator = (Decimal(str(math.sqrt(s_x2 - s_x2N))) * Decimal(str(math.sqrt(s_y2 - s_y2N))))
+
+  if x_y == 0: return  Decimal('-100000.0')
   if(denominator == 0):
     r = 0
   else:

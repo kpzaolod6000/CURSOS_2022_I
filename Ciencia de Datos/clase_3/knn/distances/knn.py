@@ -9,6 +9,7 @@ def Knn(data,n_users,metric,id_user):
   for i in range(len(n_users)):
     if n_users[i] != n_users[id_user]:
       d = metric(data[:,i],data[:,id_user])
+      ##d puedes cero si los valores son muy cercanos o si no hay ninguna valor coherente
       distances.append((n_users[i],d))
   #     dist.append(d)
       

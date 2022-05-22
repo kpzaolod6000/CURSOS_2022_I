@@ -23,6 +23,14 @@ def Manhattan_D(x1,x2):
 
 
 from scipy.spatial.distance import cityblock
-
+# @jit(nopython=True)
 def Manhattan_lib(x1,x2):
-  return cityblock(x1, x2)
+  
+  rating_x_user= []
+  rating_user= []
+  for id in range(len(x1)):
+    if(not np.isnan(x1[id]) and not np.isnan(x2[id])):
+      rating_x_user.append(x1[id])
+      rating_user.append(x2[id])
+  
+  return cityblock(rating_x_user, rating_user)
