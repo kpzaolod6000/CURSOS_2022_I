@@ -1,0 +1,14 @@
+vector latente o codigo
+
+a pooling , diconvolution,
+
+Debilidades: La carencia de tiempo para poder completar un asistente de  forma más completa, también la ausencia de ciertos conocimientos del tema y que algunos integrantes no se encuentran en la misma ciudad.
+Fortalezas:  Conocimientos en programación de todos los integrantes, se conoce la funcionalidad principal del sistema a desarrollar y el uso que los usuarios le dan este.
+Amenazas: Posibles empresas que tienen más tiempo en desarrollo de estos sistemas.
+Oportunidades: El asistente será creado para un entorno acerca de reuniones o eventos importantes a los cuales se deberá asistir, haciendo uso de notificaciones. Muchos correos electrónicos desordenados y se necesita alguien que los ordene
+
+
+que usuarios conocemos 
+clientes en general negocios
+valor agregado
+seleccion de entrenamiento
