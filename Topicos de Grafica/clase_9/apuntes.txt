@@ -1,0 +1,42 @@
+podemos preservar el hue y reducir la complejidad computacional.
+
+En segundo lugar, utilizamos la operación de apertura morfológica modificada para la estimación del mapa de transmisión.
+El mapa de transmisión describe la parte de la luz que no se dispersa y llega a la cámara. Como el mapa es una función continua de la profundidad, refleja la información de profundidad en la escena.
+
+¿Qué es el mapa de transmisión en el tratamiento de imágenes?
+El mapa de transmisión describe la parte de la luz que no se dispersa y llega a la cámara. 
+Como el mapa es una función continua de la profundidad, refleja la información de profundidad de la escena.
+
+De este modo, se suprimen en gran medida los efectos de halo y cuesta menos tiempo que los filtros especialmente diseñados.
+
+Un halo es una línea brillante que puede aparecer en zonas de alto contraste en una foto cuando ésta ha sido sometida a una edición muy fuerte, 
+en particular la edición HDR. Un ejemplo de zona de alto contraste sería una montaña oscura sobre un cielo brillante.
+
+Además, nuestro algoritmo mantiene la naturalidad preservando el tono y suprimiendo los efectos de halo (véase la Fig. 1).
+
+Además, la complejidad computacional se ha reducido en gran medida, lo que hace que nuestro algoritmo sea apropiado para aplicaciones en tiempo real en tiempo real.
+
+IMAGENES HSV
+Comparación entre una imagen con niebla y otra sin niebla en el espacio HSV. Las dos primeras filas, de izquierda a derecha: Imagen original, tono, saturación y valor. 
+Última fila: Histograma de diferencias entre la imagen con y sin niebla. Podemos ver que el tono se mantiene igual, mientras que la saturación es siempre mayor para la
+ imagen sin niebla, y el valor es siempre mayor para la imagen con niebla
+
+
+
+
+
+
+
+
+
+
+
+
+Calculamos el SSIM y el CIEDE2000 entre las imágenes reales y los resultados de la desdiferenciación.
+ El índice SSIM compara los patrones locales de las intensidades de los píxeles. El índice SSIM resultante es un valor 
+decimal entre -1 y 1, y el valor 1 sólo es alcanzable en el caso de dos conjuntos de datos idénticos. La diferencia de 
+color se mide mediante el CIEDE2000, con valores entre 0 y 100.
+
+Cuanto menor sea el índice CIEDE2000, mejor será la conservación del color. Los resultados mostrados en la 
+Tabla 1 demuestran que nuestro algoritmo es mejor en la disminución de la diferencia de color. Sin los efectos 
+de halo ni la distorsión del color, nuestro algoritmo puede preservar la naturalidad de las imágenes sin bruma.
