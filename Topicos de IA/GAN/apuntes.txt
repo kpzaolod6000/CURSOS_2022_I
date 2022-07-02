@@ -1,0 +1,3 @@
+funcion de costo, tendra esta forma
+lo que uno quiere entrenar es encontrar la funcion de densidad probabilidad que mejor la distribucion de los datos mostrados correctamente
+para ello se maxima la funcion de likelihood

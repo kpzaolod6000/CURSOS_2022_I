@@ -1,0 +1,23 @@
+Los GANs aprenden la funcion de distribucion
+
+shallow autoencodeer hace el mismo que el PCA, es un PCA
+
+
+regularizacion
+SPARSE
+OVERCONFIG
+
+VAE -> variazion autoencoder
+
+
+divergencia KL -> trata de minimizar la distancia entre campanas en VAE
+
+
+SVD -> SINGLE VALUE DESCOMPOSITION
+KSVD ES MEJOR QUE JPGE, PCA
+
+x= DA
+DONDE D ES 
+
+
+IMPAINTING
