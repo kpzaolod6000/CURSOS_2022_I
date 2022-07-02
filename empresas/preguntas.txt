@@ -1,0 +1,15 @@
+¿Sabes que son los eSports? dar un concepto y preguntar lo sabias? opcion SI y NO
+¿Que videojuegos conoces que son eSports?(opcion multiple)
+Los juegos citados son los mas famosos y ganadores de titulos ¿Cual de ellos te gusta? (opciones multiples)
+¿ Cuantos horas le dedicas a estos juegos?
+¿Te consideras que eres bueno entre los demas? del 1 al 10 cual estu nivel de experiencia
+¿Quisieras ser un jugador profesional?
+¿Sabes cual es el impacto económico a nivel mundial por ser un jugador profesional?
+¿Quieres ser un jugador profesional?
+¿Sabias que existen entrenadores de diversion videojuegos?
+¿Estas dispuesta a seseguir las enseñanzas de un entrenador ?
+¿Que caracteristicas quieres que tenga un uentrenador?
+¿Cuanto estas dispuesto a pagar?
+¿Cuantas horas quisieras dedicarle al entrenamiento?
+¿Quieres que los entrenamientos sean virtuales o presenciales?
+
