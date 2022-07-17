@@ -1,0 +1,5 @@
+ransomware es una parte de un programa malicioso que es maleware
+donde spiwire es espiar y troyano es controla la pc mientrs que el ransomware cifra la informacion y lo retira de tu disposicion
+
+
+Hola buenas noches una consulta cuando te refieres a cifrar la informacion estos ransomware usan algoritmos de cifrado?
