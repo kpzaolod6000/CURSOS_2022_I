@@ -1,0 +1,120 @@
+# Blender MTL File: 'None'
+# Material Count: 10
+
+newmtl GDLM10_Cladding_Siding_White
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.000000
+illum 6
+map_Kd C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\a35db84166150d023a3b6d986e15d4c5.png
+map_d C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\a35db84166150d023a3b6d986e15d4c5.png
+
+newmtl GDLM1_Vegetation_HoneyLocus
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.000000
+illum 6
+map_Kd C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\cf1691aae825b00ec76f2f24930d3ec3.png
+map_d C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\cf1691aae825b00ec76f2f24930d3ec3.png
+
+newmtl GDLM2_Groundcover_RiverRock
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.000000
+illum 6
+map_Kd C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\f071130d28fac7f43e5a78aef318aee7.png
+map_d C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\f071130d28fac7f43e5a78aef318aee7.png
+
+newmtl GDLM3_Groundcover_BarkChips
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.000000
+illum 6
+map_Kd C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\4295a16468aabd05e2ddaca726d70194.png
+map_d C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\4295a16468aabd05e2ddaca726d70194.png
+
+newmtl GDLM4_Cladding_Siding_White
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.000000
+illum 6
+map_Kd C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\a804376f824764374428a63a03eb04d1.png
+map_d C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\a804376f824764374428a63a03eb04d1.png
+
+newmtl GDLM5_Default
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl GDLM6_Sketchy_Stone_Ashlar_
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.000000
+illum 6
+map_Kd C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\f731c87a1f308f08966485ab99c38593.png
+map_d C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\f731c87a1f308f08966485ab99c38593.png
+
+newmtl GDLM7_Groundcover_Wood_Mix_
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.000000
+illum 6
+map_Kd C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\5247f84605c4c370a8c64c608ef0d74f.png
+map_d C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\5247f84605c4c370a8c64c608ef0d74f.png
+
+newmtl GDLM8_Groundcover_Sand_Smoo
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.000000
+illum 6
+map_Kd C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\2814ab3d323dce5f82a4c76fcc07672d.png
+map_d C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\2814ab3d323dce5f82a4c76fcc07672d.png
+
+newmtl GDLM9_Concrete_Scored_Joint
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.000000
+illum 6
+map_Kd C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\322cde605aca2bc30562bb94c5411d92.png
+map_d C:\\Users\\Fernando\\AppData\\Local\\Abvent\\Exportar Twinmotion\\Texturas\\322cde605aca2bc30562bb94c5411d92.png

@@ -1,0 +1,4 @@
+luces -> baked lighting  (Batch Those Game Objects)
+camara -> Use Culling to Limit What is Rendered
+
+ok
