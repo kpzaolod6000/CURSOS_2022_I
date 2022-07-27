@@ -1,0 +1,43 @@
+El promer termino es la expectativa del registro de salida del discriminador cuando la entrada de 
+distribucion de datos reales
+
+Lo que quiere es que el discriminador sea un numero grande por que eso representa de que los datos sean
+realmente reales en la cual el discriminador no esta involucrado
+
+Y la expectactiva es solo el promedio de las predicciones cuando obtiene una gran cantidad de entrada de ruido
+para el generador
+
+
+
+Veamos de ceraca el termino D(G(z))
+
+el discriminador quiere que el termino D(G(z)) sea los mas pequeño posible o tener la confianza de que las muestars
+flasas de hecho son falsa, pero dado que el generador quiere engañar al discriminador, quiere que este valor sea tan grande como sea posible
+o que el discriminador que la muestra falsa es real con un alto nivel de confianza.
+Y esto establece el juego de la confrontacion
+
+entonces porque es 1- G(D(z)))
+Esto se debe a que esta transformacion apunta a los deseos del discriminador y el generador en direcciones consistentes
+Entonces si sabemos que el discriminador quiere maximar el priemr termino porque es ahi donde la probabilidad de que una iamagen real sea predicha
+como real y al hacer que el segundo termino sea 1 - D(G(z)) transforma la cantidad de algo que el discrminador quiere minimizar que quiere maximizar.
+Asi que si sumamos estas dos cantidades el discriminador quiere maximizar todo y el generador quiere minimizar todo
+
+minimax game
+
+objetivo de optimizacion
+
+El minimo de la funcion de costo se logra si y solo si la distribucion de probabilidad coincide con el de los datos reales
+esto muestra que las muestras falsan son indistinguible de las muestras reales 
+
+Esta prueba se realiza en dos partes primero que para un generador estatico el maximo de la funcion de costo con respecto al discrimininador es una constante
+y que la constante es igual al log(4), entoncs para mostrar esto 
+
+
+
+
+
+Expectacion
+donde x es tomado de un distribuicon de los datos reales
+
+Expectacion
+donde z es tomado de un distribuicon de los datos generados por el generador
