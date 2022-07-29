@@ -1,0 +1,6 @@
+file:///home/judal/Descargas/RCER20207(2)86-95.pdf
+https://github.com/PartheshSoni/Image-colorization-using-GANs/blob/master/ImageColorizationUsingGANs.pdf
+
+https://link.springer.com/chapter/10.1007/978-981-16-0708-0_2
+
+https://medium.com/mlearning-ai/a-beginners-guide-to-gans-86705602a519	
