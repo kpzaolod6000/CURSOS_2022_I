@@ -3,4 +3,4 @@ https://github.com/PartheshSoni/Image-colorization-using-GANs/blob/master/ImageC
 
 https://link.springer.com/chapter/10.1007/978-981-16-0708-0_2
 
-https://medium.com/mlearning-ai/a-beginners-guide-to-gans-86705602a519	
+https://medium.com/mlearning-ai/a-beginners-guide-to-gans-86705602a519
